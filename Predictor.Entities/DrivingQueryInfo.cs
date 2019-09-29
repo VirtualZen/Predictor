@@ -27,15 +27,17 @@ namespace Predictor.Entities
         public bool isValidLicensePlate()
         {
             // TODO all license plate cases, this case has private cars only, not diplomatic or others
-            return Validator.isValidExpression(LicensePlateIdentifier, @"[GPAWSBUIQCLYXRJMKOVTENZ][A-Z]{2}[\-][0-9]{3,4}");
+            return Validator.isValidExpression(LicensePlateIdentifier, @"^[GPAWSBUIQCLYXRJMKOVTENZ][A-Z]{2}[\-][0-9]{3,4}$");
         }
         public bool isValidDate()
         {
-            // TODO define if single digits allowed, for now mm/dd/yyyy
+            // TODO set date format via app configuration, now using OS default parsing
             DateTime result;
             bool b = DateTime.TryParse(QueryDate, out result);
+
             Debug.Print($"QueryDate:[{QueryDate}]:=[{QueryDate}], Could Parse := [{b}]");
-            return b && Validator.isValidExpression(QueryDate, @"[0-9]?[0-9][/][0-9]?[0-9][/][0-9][0-9][0-9][0-9]");
+            //Validator.isValidExpression(QueryDate, @"^[0-9]?[0-9][/][0-9]?[0-9][/][0-9][0-9][0-9][0-9]$")
+            return b;
         }
 
         public bool isValidTime()

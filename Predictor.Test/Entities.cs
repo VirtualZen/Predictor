@@ -20,9 +20,14 @@ namespace Predictor.Test
             Assert.IsTrue(new DrivingQueryInfo("PCR-4834", "9/24/2018", "06:30").isValidLicensePlate());
         }
         [TestMethod]
-        public void DrivingQueryInfoTest_Valid_Date()
+        public void DrivingQueryInfoTest_Valid_DateSlash()
         {
             Assert.IsTrue(new DrivingQueryInfo("PCR-4834", "9/24/2018", "06:30").isValidDate());
+        }
+        [TestMethod]
+        public void DrivingQueryInfoTest_Valid_DateDash()
+        {
+            Assert.IsTrue(new DrivingQueryInfo("PCR-4834", "9-24-2018", "06:30").isValidDate());
         }
         [TestMethod]
         public void DrivingQueryInfoTest_Valid_Time()
@@ -61,7 +66,7 @@ namespace Predictor.Test
         [TestMethod]
         public void DrivingQueryInfoTest_Bad_Date_Separator()
         {
-            Assert.IsFalse(new DrivingQueryInfo("PCR-4834", "9-24-2018", "06:30").isValidDate());
+            Assert.IsFalse(new DrivingQueryInfo("PCR-4834", "9+24+2018", "06:30").isValidDate());
         }
         [TestMethod]
         public void DrivingQueryInfoTest_Bad_Date_2Separator()
