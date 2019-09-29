@@ -94,3 +94,5 @@ D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Test\bin
 D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Test\bin\Debug\netcoreapp3.0\Predictor.Core.pdb
 D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Test\bin\Debug\netcoreapp3.0\Predictor.Core.Interfaces.dll
 D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Test\bin\Debug\netcoreapp3.0\Predictor.Core.Interfaces.pdb
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Test\bin\Debug\netcoreapp3.0\Predictor.Entities.dll
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Test\bin\Debug\netcoreapp3.0\Predictor.Entities.pdb

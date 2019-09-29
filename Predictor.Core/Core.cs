@@ -9,7 +9,7 @@ namespace Predictor.Core
     {
         public bool IsAlive()
         {
-            return false;
+            return true;
         }
     }
 }

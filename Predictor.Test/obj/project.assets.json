@@ -2052,6 +2052,16 @@
         "runtime": {
           "bin/placeholder/Predictor.Core.Interfaces.dll": {}
         }
+      },
+      "Predictor.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Predictor.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Predictor.Entities.dll": {}
+        }
       }
     }
   },
@@ -6895,6 +6905,11 @@
       "type": "project",
       "path": "../Predictor.Core.Interfaces/Predictor.Core.Interfaces.csproj",
       "msbuildProject": "../Predictor.Core.Interfaces/Predictor.Core.Interfaces.csproj"
+    },
+    "Predictor.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Predictor.Entities/Predictor.Entities.csproj",
+      "msbuildProject": "../Predictor.Entities/Predictor.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6904,6 +6919,7 @@
       "Microsoft.NET.Test.Sdk >= 16.2.0",
       "Predictor.Core >= 1.0.0",
       "Predictor.Core.Interfaces >= 1.0.0",
+      "Predictor.Entities >= 1.0.0",
       "coverlet.collector >= 1.0.1"
     ]
   },
@@ -6943,6 +6959,9 @@
             },
             "D:\\Documents\\Personal\\JobHunt\\EC\\StackBuilders\\Code\\Predictor\\Predictor.Core\\Predictor.Core.csproj": {
               "projectPath": "D:\\Documents\\Personal\\JobHunt\\EC\\StackBuilders\\Code\\Predictor\\Predictor.Core\\Predictor.Core.csproj"
+            },
+            "D:\\Documents\\Personal\\JobHunt\\EC\\StackBuilders\\Code\\Predictor\\Predictor.Entities\\Predictor.Entities.csproj": {
+              "projectPath": "D:\\Documents\\Personal\\JobHunt\\EC\\StackBuilders\\Code\\Predictor\\Predictor.Entities\\Predictor.Entities.csproj"
             }
           }
         }
