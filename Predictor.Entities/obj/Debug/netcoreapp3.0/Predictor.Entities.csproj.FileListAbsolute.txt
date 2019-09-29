@@ -1,7 +1,6 @@
 D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Entities\bin\Debug\netcoreapp3.0\Predictor.Entities.deps.json
 D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Entities\bin\Debug\netcoreapp3.0\Predictor.Entities.dll
 D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Entities\bin\Debug\netcoreapp3.0\Predictor.Entities.pdb
-D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Entities\obj\Debug\netcoreapp3.0\Predictor.Entities.csprojAssemblyReference.cache
 D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Entities\obj\Debug\netcoreapp3.0\Predictor.Entities.AssemblyInfoInputs.cache
 D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Entities\obj\Debug\netcoreapp3.0\Predictor.Entities.AssemblyInfo.cs
 D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Entities\obj\Debug\netcoreapp3.0\Predictor.Entities.dll

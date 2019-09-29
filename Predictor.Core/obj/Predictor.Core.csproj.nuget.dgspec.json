@@ -30,7 +30,11 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Documents\\Personal\\JobHunt\\EC\\StackBuilders\\Code\\Predictor\\Predictor.Entities\\Predictor.Entities.csproj": {
+                "projectPath": "D:\\Documents\\Personal\\JobHunt\\EC\\StackBuilders\\Code\\Predictor\\Predictor.Entities\\Predictor.Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
