@@ -2034,7 +2034,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
-          "Predictor.Core.Interfaces": "1.0.0"
+          "Predictor.Core.Interfaces": "1.0.0",
+          "Predictor.Entities": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Predictor.Core.dll": {}

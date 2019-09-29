@@ -1329,7 +1329,8 @@
       },
       "Predictor.Core/1.0.0": {
         "dependencies": {
-          "Predictor.Core.Interfaces": "1.0.0"
+          "Predictor.Core.Interfaces": "1.0.0",
+          "Predictor.Entities": "1.0.0"
         },
         "runtime": {
           "Predictor.Core.dll": {}

@@ -89,6 +89,9 @@
             "projectReferences": {
               "D:\\Documents\\Personal\\JobHunt\\EC\\StackBuilders\\Code\\Predictor\\Predictor.Core.Interfaces\\Predictor.Core.Interfaces.csproj": {
                 "projectPath": "D:\\Documents\\Personal\\JobHunt\\EC\\StackBuilders\\Code\\Predictor\\Predictor.Core.Interfaces\\Predictor.Core.Interfaces.csproj"
+              },
+              "D:\\Documents\\Personal\\JobHunt\\EC\\StackBuilders\\Code\\Predictor\\Predictor.Entities\\Predictor.Entities.csproj": {
+                "projectPath": "D:\\Documents\\Personal\\JobHunt\\EC\\StackBuilders\\Code\\Predictor\\Predictor.Entities\\Predictor.Entities.csproj"
               }
             }
           }

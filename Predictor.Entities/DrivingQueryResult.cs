@@ -8,7 +8,7 @@ namespace Predictor.Entities
     {
         public DrivingQueryResult(bool canDrive)
         {
-            CanDrive = CanDrive;
+            CanDrive = canDrive;
         }
 
         public DrivingQueryResult() : this(false)

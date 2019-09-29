@@ -17,7 +17,8 @@
       },
       "Predictor.Core/1.0.0": {
         "dependencies": {
-          "Predictor.Core.Interfaces": "1.0.0"
+          "Predictor.Core.Interfaces": "1.0.0",
+          "Predictor.Entities": "1.0.0"
         },
         "runtime": {
           "Predictor.Core.dll": {}
@@ -26,6 +27,11 @@
       "Predictor.Core.Interfaces/1.0.0": {
         "runtime": {
           "Predictor.Core.Interfaces.dll": {}
+        }
+      },
+      "Predictor.Entities/1.0.0": {
+        "runtime": {
+          "Predictor.Entities.dll": {}
         }
       }
     }
@@ -42,6 +48,11 @@
       "sha512": ""
     },
     "Predictor.Core.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Predictor.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

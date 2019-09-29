@@ -1,4 +1,5 @@
 ﻿using Predictor.Core.Interfaces;
+using Predictor.Entities;
 using System;
 
 namespace Predictor.Core
@@ -8,6 +9,12 @@ namespace Predictor.Core
         public bool IsAlive()
         {
             return true;
+        }
+
+        public DrivingQueryResult CanDrive(DrivingQueryInfo info)
+        {
+            var r = new DrivingQueryResult(true);
+            return r;
         }
     }
 }

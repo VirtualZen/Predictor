@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Predictor.Core.Interfaces\Predictor.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\Predictor.Entities\Predictor.Entities.csproj" />
   </ItemGroup>
 
 </Project>
