@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Predictor.Core/1.0.0": {
+        "dependencies": {
+          "Predictor.Core.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Predictor.Core.dll": {}
+        }
+      },
+      "Predictor.Core.Interfaces/1.0.0": {
+        "runtime": {
+          "Predictor.Core.Interfaces.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Predictor.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Predictor.Core.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

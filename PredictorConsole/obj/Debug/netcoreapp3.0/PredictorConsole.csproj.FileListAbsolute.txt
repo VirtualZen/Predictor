@@ -1,0 +1,16 @@
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\PredictorConsole\bin\Debug\netcoreapp3.0\PredictorConsole.exe
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\PredictorConsole\bin\Debug\netcoreapp3.0\PredictorConsole.deps.json
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\PredictorConsole\bin\Debug\netcoreapp3.0\PredictorConsole.runtimeconfig.json
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\PredictorConsole\bin\Debug\netcoreapp3.0\PredictorConsole.runtimeconfig.dev.json
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\PredictorConsole\bin\Debug\netcoreapp3.0\PredictorConsole.dll
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\PredictorConsole\bin\Debug\netcoreapp3.0\PredictorConsole.pdb
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\PredictorConsole\obj\Debug\netcoreapp3.0\PredictorConsole.csprojAssemblyReference.cache
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\PredictorConsole\obj\Debug\netcoreapp3.0\PredictorConsole.AssemblyInfoInputs.cache
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\PredictorConsole\obj\Debug\netcoreapp3.0\PredictorConsole.AssemblyInfo.cs
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\PredictorConsole\obj\Debug\netcoreapp3.0\PredictorConsole.dll
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\PredictorConsole\obj\Debug\netcoreapp3.0\PredictorConsole.pdb
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\PredictorConsole\bin\Debug\netcoreapp3.0\Predictor.Core.dll
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\PredictorConsole\bin\Debug\netcoreapp3.0\Predictor.Core.pdb
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\PredictorConsole\obj\Debug\netcoreapp3.0\PredictorConsole.csproj.CopyComplete
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\PredictorConsole\bin\Debug\netcoreapp3.0\Predictor.Core.Interfaces.dll
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\PredictorConsole\bin\Debug\netcoreapp3.0\Predictor.Core.Interfaces.pdb

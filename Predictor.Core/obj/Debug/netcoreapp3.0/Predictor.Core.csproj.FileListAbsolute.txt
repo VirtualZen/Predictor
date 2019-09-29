@@ -1,0 +1,11 @@
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Core\bin\Debug\netcoreapp3.0\Predictor.Core.deps.json
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Core\bin\Debug\netcoreapp3.0\Predictor.Core.dll
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Core\bin\Debug\netcoreapp3.0\Predictor.Core.pdb
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Core\obj\Debug\netcoreapp3.0\Predictor.Core.csprojAssemblyReference.cache
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Core\obj\Debug\netcoreapp3.0\Predictor.Core.AssemblyInfoInputs.cache
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Core\obj\Debug\netcoreapp3.0\Predictor.Core.AssemblyInfo.cs
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Core\obj\Debug\netcoreapp3.0\Predictor.Core.dll
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Core\obj\Debug\netcoreapp3.0\Predictor.Core.pdb
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Core\bin\Debug\netcoreapp3.0\Predictor.Core.Interfaces.dll
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Core\bin\Debug\netcoreapp3.0\Predictor.Core.Interfaces.pdb
+D:\Documents\Personal\JobHunt\EC\StackBuilders\Code\Predictor\Predictor.Core\obj\Debug\netcoreapp3.0\Predictor.Core.csproj.CopyComplete

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Predictor.Core.Interfaces\Predictor.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\Predictor.Core\Predictor.Core.csproj" />
+  </ItemGroup>
+
+</Project>
