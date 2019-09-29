@@ -35,6 +35,11 @@ namespace Predictor.Test
             Assert.IsTrue(new DrivingQueryInfo("PCR-4834", "9/24/2018", "06:30").IsValidEntity().valid);
         }
         [TestMethod]
+        public void DrivingQueryInfoTest_Valid_Time_Short()
+        {
+            Assert.IsTrue(new DrivingQueryInfo("PCR-4834", "9/24/2018", "5:30").IsValidEntity().valid);
+        }
+        [TestMethod]
         public void DrivingQueryInfoTest_Bad_LicensePlate_Province()
         {
             Assert.IsFalse(new DrivingQueryInfo("DCR-4834", "9/24/2018", "06:30").IsValidEntity().valid);
