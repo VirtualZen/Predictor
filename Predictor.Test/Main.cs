@@ -1,5 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Predictor.Core;
+using Predictor.Core.Scheduler;
 using Predictor.Entities;
 
 namespace Predictor.Test

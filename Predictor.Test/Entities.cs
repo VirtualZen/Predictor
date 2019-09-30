@@ -114,5 +114,25 @@ namespace Predictor.Test
         {
             Assert.IsFalse(new DrivingQueryInfo("PCR-4834", "24/9/2018", "06:").IsValidEntity().valid);
         }
+        [TestMethod]
+        public void DrivingQueryInfoTest_Valid_Time_Min()
+        {
+            Assert.IsTrue(new DrivingQueryInfo("PCR-4834", "9/24/2018", "00:00").IsValidEntity().valid);
+        }
+        [TestMethod]
+        public void DrivingQueryInfoTest_Valid_Time_Max()
+        {
+            Assert.IsTrue(new DrivingQueryInfo("PCR-4834", "9/24/2018", "23:59").IsValidEntity().valid);
+        }
+        [TestMethod]
+        public void DrivingQueryInfoTest_Bad_Time_IllegalTime()
+        {
+            Assert.IsFalse(new DrivingQueryInfo("PCR-4834", "9/24/2018", "24:00").IsValidEntity().valid);
+        }
+        [TestMethod]
+        public void DrivingQueryInfoTest_Bad_Time_TimeRange()
+        {
+            Assert.IsFalse(new DrivingQueryInfo("PCR-4834", "24/9/2018", "44:00").IsValidEntity().valid);
+        }
     }
 }

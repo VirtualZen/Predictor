@@ -1,10 +1,11 @@
 ﻿using Predictor.Core.Interfaces;
+using Predictor.Core.LicensePlateRule;
 using Predictor.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Predictor.Core
+namespace Predictor.Core.Scheduler
 {
     public class HoyNoCirculaScheduler : SchedulerBase, IRestrictionScheduler
     {

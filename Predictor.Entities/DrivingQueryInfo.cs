@@ -22,7 +22,8 @@ namespace Predictor.Entities
 
             isValid = isValid && Validator.isValidField("LicensePlateIdentifier", LicensePlateIdentifier, @"^[GPAWSBUIQCLYXRJMKOVTENZ][A-Z]{2}[\-][0-9]{3,4}$", fieldResults);
             isValid = isValid && Validator.isValidDate("QueryDate", QueryDate,fieldResults);
-            isValid = isValid && Validator.isValidField("QueryTime", QueryTime, @"^[0-9]{1,2}[:][0-9][0-9]$",fieldResults);
+            //isValid = isValid && Validator.isValidField("QueryTime", QueryTime, @"^[0-9]{1,2}[:][0-9][0-9]$",fieldResults);
+            isValid = isValid && Validator.isValidDate("QueryTime", QueryTime, fieldResults);
 
             return (isValid, fieldResults);
         }

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 
-namespace Predictor.Core
+namespace Predictor.Core.LicensePlateRule
 {
     class LastDigitLicensePlateRule : ILicensePlateRule
     {
