@@ -52,6 +52,12 @@ namespace Predictor.Test
             Assert.IsTrue(s.GetType().Name == "HoyNoCirculaScheduler");
         }
         [TestMethod]
+        public void CanIDrive_SchedulerSelector_HoyNoCircula_October_1()
+        {
+            var s = new Scheduler().GetScheduler("10/1/2019");
+            Assert.IsTrue(s.GetType().Name == "HoyNoCirculaScheduler");
+        }
+        [TestMethod]
         public void CanIDrive_SchedulerSelector_HoyNoCircula_End()
         {
             var s = new Scheduler().GetScheduler("12/31/2021");

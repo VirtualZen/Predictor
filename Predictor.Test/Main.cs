@@ -131,6 +131,12 @@ namespace Predictor.Test
             Assert.IsFalse(result.CanDrive);
         }
         [TestMethod]
+        public void CanIDrive_Negative_HoyNoCircula_BadDay_Evening()
+        {
+            var result = new Main().CanDrive(new DrivingQueryInfo("PCR-4834", "10/01/2019", "20:00"), new HoyNoCirculaScheduler());
+            Assert.IsFalse(result.CanDrive);
+        }
+        [TestMethod]
         public void CanIDrive_Positive_HoyNoCircula_BadDay_Evening()
         {
             var result = new Main().CanDrive(new DrivingQueryInfo("PCR-4834", "10/01/2019", "20:01"), new HoyNoCirculaScheduler());

@@ -32,7 +32,7 @@ namespace PredictorConsole
                 Exit(-2);
             }
 
-            var result = new Main().CanDrive(query, new PicoYPlacaScheduler());
+            var result = new Main().CanDrive(query, new Scheduler().GetScheduler(date));
 
             if (result.CanDrive)
             {
